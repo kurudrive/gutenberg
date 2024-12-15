@@ -49,7 +49,7 @@ export default function ResponsiveWrapper( {
 			'is-menu-open': isOpen,
 			'hidden-by-default': isHiddenByDefault,
 		}
-	);
+	).trim();
 
 	const styles = {
 		color: ! overlayTextColor?.slug && overlayTextColor?.color,
